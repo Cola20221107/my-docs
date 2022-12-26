@@ -1,20 +1,20 @@
-import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import {hopeTheme} from "vuepress-theme-hope";
+import {enNavbar, zhNavbar} from "./navbar/index.js";
+import {enSidebar, zhSidebar} from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "Mr.Cola",
+    url: "https://github.com/1203952894",
   },
 
   iconAssets: "iconfont",
 
   logo: "/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "https://github.com/1203952894",
 
   docsDir: "demo/theme-docs/src",
 
@@ -47,7 +47,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "MIT Licensed | Copyright © 2022-present Mr.Cola",
 
       displayFooter: true,
 
@@ -60,8 +60,8 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
+      "/demo/encrypt.html": ["020506"],
+      "/zh/demo/encrypt.html": ["020506"],
     },
   },
 
@@ -73,11 +73,11 @@ export default hopeTheme({
       /**
        * Using Giscus
        */
-      // provider: "Giscus",
-      // repo: "vuepress-theme-hope/giscus-discussions",
-      // repoId: "R_kgDOG_Pt2A",
-      // category: "Announcements",
-      // categoryId: "DIC_kwDOG_Pt2M4COD69",
+      provider: "Giscus",
+      repo: "1203952894/gitalk",
+      repoId: "R_kgDOH7wZUg",
+      category: "Announcements",
+      categoryId: "DIC_kwDOH7wZUs4CSsKz",
 
       /**
        * Using Twikoo
@@ -88,8 +88,8 @@ export default hopeTheme({
       /**
        * Using Waline
        */
-      provider: "Waline",
-      serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+      // provider: "Waline",
+      // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
     },
 
     // Disable features you don’t want here
