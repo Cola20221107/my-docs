@@ -4,4 +4,6 @@ icon: creative
 ---
 ## 介绍
 
-Notes 目录
+- [知乎](ZhiHu/)
+
+> 用于记录知乎上的一些内容

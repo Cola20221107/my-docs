@@ -1,18 +1,18 @@
 ---
-title: Study
+title: 指南
 icon: creative
 ---
-## 功能亮点
+## 目录导航
 
-### BVideo
+### [哔哩哔哩](/BVideo)
 
-- HeiMa
-- ShangGuiGu
+- [黑马程序员](BVideo/HeiMa/)
+- [尚硅谷](BVideo/ShangGuiGu/)
 
-### Project
+### [项目](Project/)
 
-### Question
+### [常见问题](Question/)
 
-### Skills
+### [日常技巧](Skills/)
 
-- Dev
+- [编程开发](Skills/Dev)

@@ -4,31 +4,12 @@ export const zhNavbar = navbar([
   "/zh/",
   { text: "案例", icon: "discover", link: "/zh/demo/" },
   {
-    text: "指南",
-    icon: "creative",
-    prefix: "/zh/guide/",
-    children: [
-      {
-        text: "Bar",
-        icon: "creative",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "more", link: "" }],
-      },
-      {
-        text: "Foo",
-        icon: "config",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "more", link: "" }],
-      },
-    ],
-  },
-  {
     text: "生活",
-    icon: "creative",
+    icon: "like",
     prefix: "/zh/Live/",
     children: [
       {
-        text: "Notes",
+        text: "随记",
         icon: "creative",
         prefix: "Notes/",
         children: ["", { text: "...", icon: "more", link: "" }],
@@ -43,29 +24,29 @@ export const zhNavbar = navbar([
   },
   {
     text: "学习",
-    icon: "creative",
+    icon: "ability",
     prefix: "/zh/Study/",
     children: [
       {
-        text: "BVideo",
+        text: "哔哩哔哩",
         icon: "creative",
         prefix: "BVideo/",
         children: ["", { text: "...", icon: "more", link: "" }],
       },
       {
-        text: "Project",
+        text: "项目",
         icon: "config",
         prefix: "Project/",
         children: ["", { text: "...", icon: "more", link: "" }],
       },
       {
-        text: "Question",
+        text: "常见问题",
         icon: "config",
         prefix: "Question/",
         children: ["", { text: "...", icon: "more", link: "" }],
       },
       {
-        text: "Skills",
+        text: "日常技巧",
         icon: "config",
         prefix: "Skills/",
         children: ["", { text: "...", icon: "more", link: "" }],
@@ -73,8 +54,8 @@ export const zhNavbar = navbar([
     ],
   },
   {
-    text: "V2 文档",
-    icon: "note",
-    link: "https://vuepress-theme-hope.github.io/v2/zh/",
+    text: "关于我",
+    icon: "at",
+    link: "https://github.com/Cola20221107",
   },
 ]);

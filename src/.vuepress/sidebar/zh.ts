@@ -11,20 +11,14 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
     {
-      text: "文档",
-      icon: "note",
-      prefix: "guide/",
-      children: "structure",
-    },
-    {
       text: "生活",
-      icon: "note",
+      icon: "like",
       prefix: "Live/",
       children: "structure",
     },
     {
       text: "学习",
-      icon: "note",
+      icon: "ability",
       prefix: "Study/",
       children: "structure",
     },

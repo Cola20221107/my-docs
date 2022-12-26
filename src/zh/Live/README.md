@@ -1,11 +1,11 @@
 ---
-title: 生活
+title: 指南
 icon: creative
 ---
-## 功能亮点
+## 目录导航
 
-### Notes
+### [随记](Notes/)
 
-- ZhiHu
+- [ZhiHu](Notes/ZhiHu/)
 
-### XiaoEr
+### [XiaoEr](XiaoEr/)
