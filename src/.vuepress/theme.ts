@@ -7,14 +7,14 @@ export default hopeTheme({
 
   author: {
     name: "Mr.Cola",
-    url: "https://github.com/1203952894",
+    url: "https://github.com/Cola20221107",
   },
 
   iconAssets: "iconfont",
 
   logo: "/logo.svg",
 
-  repo: "https://github.com/1203952894",
+  repo: "https://github.com/Cola20221107",
 
   docsDir: "demo/theme-docs/src",
 
